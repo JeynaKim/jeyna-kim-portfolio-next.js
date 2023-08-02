@@ -7,6 +7,7 @@ import profilePic from '../../public/images/profile/jeyna-profile5.png';
 import { useMotionValue, useSpring, useInView } from 'framer-motion';
 import Skills from '@/components/Skills';
 import Experience from '@/components/Experience';
+import Education from '@/components/Education';
 
 const AnimatedNumbers = ({ value }) => {
   const ref = useRef(null);
@@ -49,7 +50,7 @@ const about = () => {
                 About Me
               </h2>
               <p className='font-medium'>
-                Hi, I'm Jeyna Kim, an innovative and creative full-stack web
+                I'm Jeyna Kim, an innovative and creative full-stack web
                 developer with experience in marketing, brand strategy, and
                 project management in diverse industries.
               </p>
@@ -109,6 +110,7 @@ const about = () => {
           </div>
           <Skills />
           <Experience />
+          <Education />
         </Layout>
       </main>
     </>
