@@ -41,7 +41,7 @@ const about = () => {
         <title>Jeyna Kim | About Me</title>
         <meta name='description' content='any description' />
       </Head>
-      <main className='flex w-full flex-col item-center justify-center'>
+      <main className='flex w-full flex-col item-center justify-center dark:text-light'>
         <Layout className='pt-16'>
           <AnimatedText text='ABOUT ME❔' className='mb-16 flex items-start' />
           <div className='grid w-full grid-cols-8 gap-16'>
@@ -49,7 +49,7 @@ const about = () => {
               {/* <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 '>
                 About Me
               </h2> */}
-              <p className='font-medium'>
+              <p className='font-medium '>
                 👋🏻 I'm Jeyna Kim, a Versatile Full-Stack Web Developer offering
                 a unique blend of expertise in marketing, brand strategy, and
                 project management across diverse industries
@@ -73,8 +73,8 @@ const about = () => {
                 exceed expectations, making me a valuable asset to any project
               </p>
             </div>
-            <div className='col-span-3 relative h-max bg-light'>
-              {/* <div className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark' /> */}
+            <div className='col-span-3 relative h-max rounded-2xl bg-light dark:bg-dark'>
+              {/* <div className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark ' /> */}
               <Image
                 src={profilePic}
                 alt='Jeyna'
@@ -86,7 +86,7 @@ const about = () => {
                 <span className='inline-block text-6xl font-bold'>
                   <AnimatedNumbers value={4} /> +
                 </span>
-                <h2 className='text-xl font-medium capitalize text-dark/75 '>
+                <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75'>
                   Marketing, Sales, Brand Strategy & Project Management
                   Experience
                 </h2>
@@ -96,7 +96,7 @@ const about = () => {
                 <span className='inline-block text-6xl font-bold'>
                   <AnimatedNumbers value={1} /> +
                 </span>
-                <h2 className='text-xl font-medium capitalize text-dark/75'>
+                <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75'>
                   Web Development Experience
                 </h2>
               </div>
@@ -105,7 +105,7 @@ const about = () => {
                 <span className='inline-block text-6xl font-bold'>
                   <AnimatedNumbers value={8} /> +
                 </span>
-                <h2 className='text-xl font-medium capitalize text-dark/75'>
+                <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75'>
                   projects completed
                 </h2>
               </div>
