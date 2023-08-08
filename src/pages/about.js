@@ -3,7 +3,7 @@ import Head from 'next/head';
 import AnimatedText from '@/components/AnimatedText';
 import Layout from '@/components/Layout';
 import Image from 'next/image';
-import profilePic from '../../public/images/profile/jeyna-profile5.png';
+import profilePic from '../../public/images/profile/about-page-profile.png';
 import { useMotionValue, useSpring, useInView } from 'framer-motion';
 import Skills from '@/components/Skills';
 import Experience from '@/components/Experience';
@@ -43,36 +43,38 @@ const about = () => {
       </Head>
       <main className='flex w-full flex-col item-center justify-center'>
         <Layout className='pt-16'>
-          <AnimatedText text='Hello,' className='mb-16 flex items-start' />
+          <AnimatedText text='ABOUT ME❔' className='mb-16 flex items-start' />
           <div className='grid w-full grid-cols-8 gap-16'>
-            <div className='col-span-3 flex flex-col items-start justify-start'>
-              <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 '>
+            <div className='col-span-3 flex flex-col items-start justify-center'>
+              {/* <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 '>
                 About Me
-              </h2>
+              </h2> */}
               <p className='font-medium'>
-                I'm Jeyna Kim, an innovative and creative full-stack web
-                developer with experience in marketing, brand strategy, and
-                project management in diverse industries.
+                👋🏻 I'm Jeyna Kim, a Versatile Full-Stack Web Developer offering
+                a unique blend of expertise in marketing, brand strategy, and
+                project management across diverse industries
               </p>
 
               <p className='my-4 font-medium'>
-                Knowledgeable in a wide range of computer languages, dedicated
-                to building user-centric, interactive and feature-rich websites.
-                Always seeking to increase sales by combining my marketing
-                strategies with tech skills to ensure a positive experience for
-                my clients
+                💡 Proficient in multiple programming languages, I am dedicated
+                to crafting interactive, user-centric, and feature-rich websites
+                that leave a lasting impression
               </p>
 
               <p className='font-medium'>
-                Whether I'm working on a website, mobile app, or other digital
-                product, I bring my commitment to design excellence and
-                user-centered thinking to every project I work on. I look
-                forward to the opportunity to bring my skills and passion to
-                your next project.
+                👩🏻‍💻 As a proven self-starter, I thrive in independent projects
+                and demonstrate exceptional teamwork in collaborative
+                environments
+              </p>
+
+              <p className='my-4 font-medium'>
+                ✏️ My unique mix of experience allows me to understand client
+                needs more deeply, resulting in solutions that not only meet but
+                exceed expectations, making me a valuable asset to any project
               </p>
             </div>
-            <div className='col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8'>
-              <div className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark' />
+            <div className='col-span-3 relative h-max bg-light'>
+              {/* <div className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark' /> */}
               <Image
                 src={profilePic}
                 alt='Jeyna'
@@ -81,25 +83,26 @@ const about = () => {
             </div>
             <div className='col-span-2 flex flex-col items-end justify-between'>
               <div className='flex flex-col items-end justify-center'>
-                <span className='inline-block text-7xl font-bold'>
+                <span className='inline-block text-6xl font-bold'>
                   <AnimatedNumbers value={4} /> +
                 </span>
                 <h2 className='text-xl font-medium capitalize text-dark/75 '>
-                  Marketing, Brand Strategy & Growth Experience
+                  Marketing, Sales, Brand Strategy & Project Management
+                  Experience
                 </h2>
               </div>
 
               <div className='flex flex-col items-end justify-center'>
-                <span className='inline-block text-7xl font-bold'>
+                <span className='inline-block text-6xl font-bold'>
                   <AnimatedNumbers value={1} /> +
                 </span>
                 <h2 className='text-xl font-medium capitalize text-dark/75'>
-                  developer experience
+                  Web Development Experience
                 </h2>
               </div>
 
               <div className='flex flex-col items-end justify-center'>
-                <span className='inline-block text-7xl font-bold'>
+                <span className='inline-block text-6xl font-bold'>
                   <AnimatedNumbers value={8} /> +
                 </span>
                 <h2 className='text-xl font-medium capitalize text-dark/75'>

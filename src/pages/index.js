@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Layout from '@/components/Layout';
 import Image from 'next/image';
-import profilePic from '../../public/images/profile/jeyna-profile5.png';
+import profilePic from '../../public/images/profile/jeyna-profile.png';
 import AnimatedText from '@/components/AnimatedText';
 import Link from 'next/link';
 import { LinkArrow } from '@/components/Icons';
@@ -23,31 +23,40 @@ export default function Home() {
             </div>
             <div className='w-1/2 flex flex-col items-center'>
               <AnimatedText
-                text='Turning Vision Into Reality With Code And Design'
-                className='text-6xl'
+                // text='Turning Vision Into Reality With Code And Design'
+                text='Hello!'
+                className='text-2xl'
               />
-              <p className='my-4 text-base font-medium'>
-                As a skilled full-stack developer, I am dedicated to turning
-                ideas into innovative web applications. Explore my latest
-                projects and articles, showcasing my expertise in React.js and
-                web development.
-              </p>
-              <div className='flex items-center self-start mt-2'>
-                <Link
-                  href='/dummy.pdf'
-                  target={'_blank'}
-                  className='flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark'
-                  download={true}
-                >
-                  Resume <LinkArrow className={'w-6 ml-1'} />
-                </Link>
-                <Link
-                  href='mailto:jeyna.kimm@gmail.com'
-                  target={'_blank'}
-                  className='ml-4 text-lg font-medium capitalize text-dark underline'
-                >
-                  Contact
-                </Link>
+              <div className='flex flex-col justify-start '>
+                <p className='text-5xl font-bold mt-10'>👋🏻 I'm Jeyna Kim</p>
+                <p className='mt-3'>
+                  ___________ A Passionate Full-Stack Web Developer hailing from
+                  Toronto, ON
+                </p>
+                <p className='my-4 text-base font-medium'>
+                  Passionate about turning ideas into digital reality, I
+                  specialize in creating innovative web applications. Explore my
+                  projects and discover how I blend creativity, functionality,
+                  and user-centered design!
+                </p>
+
+                <div className='flex items-center self-start mt-4'>
+                  <Link
+                    href='https://resume.creddle.io/resume/b5p8hv43jyy'
+                    target={'_blank'}
+                    className='flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark'
+                    // download={true}
+                  >
+                    Resume <LinkArrow className={'w-6 ml-1'} />
+                  </Link>
+                  <Link
+                    href='mailto:jeyna.kimm@gmail.com'
+                    target={'_blank'}
+                    className='ml-4 text-lg font-medium capitalize text-dark underline'
+                  >
+                    Contact
+                  </Link>
+                </div>
               </div>
             </div>
           </div>

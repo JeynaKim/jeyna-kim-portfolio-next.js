@@ -6,24 +6,27 @@ const Footer = () => {
   return (
     <footer className='w-full border-t-2 border-solid border-dark font-medium text-lg'>
       <Layout className='py-8 flex items-center justify-between'>
-        <span>{new Date().getFullYear()} &copy; All Rights Reserved.</span>
+        <span>
+          &copy; {new Date().getFullYear()} Jeyna Kim. All rights reserved.
+        </span>
         <div className='flex items-center'>
           Build With <span className='text-primary text-2xl px-1'>&#9825;</span>
           by&nbsp;{' '}
           <Link
-            href='https://localhost:3000'
+            href='mailto:jeyna.kimm@gmail.com'
+            targer={'_blank'}
             className='underline underline-offset-2'
           >
             Jeyna Kim
           </Link>
         </div>
-        <Link
+        {/* <Link
           href='mailto:jeyna.kimm@gmail.com'
           targer={'_blank'}
           className='underline underline-offset-2'
         >
           Say hello
-        </Link>
+        </Link> */}
       </Layout>
     </footer>
   );
