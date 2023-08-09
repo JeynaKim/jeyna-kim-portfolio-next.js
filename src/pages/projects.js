@@ -116,6 +116,7 @@ const projects = () => {
                 link='https://www.kaidu.ai/'
                 type='Real-Time Analytics and Management App'
                 img={project5}
+                priority={true}
                 github='https://www.kaidu.ai/'
               />
             </div>
@@ -127,6 +128,7 @@ const projects = () => {
                 link='https://www.kaidu.ai/'
                 type='Client Management App'
                 img={project6}
+                priority={true}
                 github='https://www.kaidu.ai/'
               />
             </div>
@@ -137,6 +139,7 @@ const projects = () => {
                 link='https://github.com/JeynaKim/go-fit'
                 type='Fitness Social Network App'
                 img={project1}
+                priority={true}
                 github='https://github.com/JeynaKim/go-fit'
               />
             </div>
@@ -148,6 +151,7 @@ const projects = () => {
                 link='https://github.com/JeynaKim/jungle-rails'
                 type='Mini E-commerce App'
                 img={project2}
+                priority={true}
                 github='https://github.com/JeynaKim/jungle-rails'
               />
             </div>
@@ -159,6 +163,7 @@ const projects = () => {
                 link='https://github.com/JeynaKim/bite-me-burger'
                 type='Food Delivery App'
                 img={project3}
+                priority={true}
                 github='https://github.com/JeynaKim/bite-me-burger'
               />
             </div>
@@ -170,6 +175,7 @@ const projects = () => {
                 link='https://github.com/JeynaKim/scheduler'
                 type='Interviewer Schedule App'
                 img={project4}
+                priority={true}
                 github='https://github.com/JeynaKim/scheduler'
               />
             </div>
