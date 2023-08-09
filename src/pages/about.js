@@ -87,7 +87,7 @@ const about = () => {
               />
             </div>
             <div className='col-span-2 flex flex-col items-end justify-between xl:col-span-8 xl:flex-row xl:items-center md:order-3'>
-              <div className='flex flex-col items-end justify-center xl:items-center'>
+              <div className='flex-1 flex flex-col items-end justify-center xl:items-center'>
                 <span className='inline-block text-6xl font-bold md:text-5xl sm:text-4xl xs:text-3xl'>
                   <AnimatedNumbers value={4} /> +
                 </span>
@@ -97,7 +97,7 @@ const about = () => {
                 </h2>
               </div>
 
-              <div className='flex flex-col items-end justify-center xl:items-center'>
+              <div className='flex-1 flex flex-col items-end justify-center xl:items-center'>
                 <span className='inline-block text-6xl font-bold md:text-5xl sm:text-4xl xs:text-3xl'>
                   <AnimatedNumbers value={1} /> +
                 </span>
@@ -106,7 +106,7 @@ const about = () => {
                 </h2>
               </div>
 
-              <div className='flex flex-col items-end justify-center xl:items-center'>
+              <div className='flex-1 flex flex-col items-end justify-center xl:items-center'>
                 <span className='inline-block text-6xl font-bold md:text-5xl sm:text-4xl xs:text-3xl'>
                   <AnimatedNumbers value={8} /> +
                 </span>
