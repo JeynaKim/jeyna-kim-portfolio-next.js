@@ -100,7 +100,7 @@ const NavBar = () => {
             whileTap={{ scale: 0.9 }}
             className='w-6 mx-3 bg-light rounded-full dark:bg-dark'
           >
-            <GithubIcon />
+            <GithubIcon className='text-light dark:text-dark' />
           </motion.a>
           <motion.a
             href='https://www.linkedin.com/in/jeynakim/'
@@ -161,7 +161,7 @@ const NavBar = () => {
               whileTap={{ scale: 0.9 }}
               className='w-6 mx-3 sm:mx-1'
             >
-              <GithubIcon />
+              <GithubIcon className='text-light dark:text-dark' />
             </motion.a>
             <motion.a
               href='https://www.linkedin.com/in/jeynakim/'

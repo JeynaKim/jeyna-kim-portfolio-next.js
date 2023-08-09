@@ -1,4 +1,4 @@
-import React, { useEffect, useState, usePref } from 'react';
+import React, { useEffect, useState } from 'react';
 
 const useThemeSwitcher = () => {
   const preferDarkQuery = '(prefer-color-scheme: dark)';
@@ -10,7 +10,7 @@ const useThemeSwitcher = () => {
 
     const handleChange = () => {
       if (userPref) {
-        let check = usePref === 'dark' ? 'dark' : 'light';
+        let check = userPref === 'dark' ? 'dark' : 'light';
         setMode(check);
         if (check === 'dark') {
           document.documentElement.classList.add('dark');
