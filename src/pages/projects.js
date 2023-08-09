@@ -9,8 +9,8 @@ import { GithubIcon } from '@/components/Icons';
 import project1 from '../../public/images/projects/Go-Fit-Display.png';
 import project2 from '../../public/images/projects/Jungle-Display.png';
 import project3 from '../../public/images/projects/BiteMeBurger-Display.png';
-import project4 from '../../public/images/projects/Scheduler-Demo.png';
-import project5 from '../../public/images/projects/kaidu-Dashboard-Display.png';
+import project4 from '../../public/images/projects/Scheduler-Display.png';
+import project5 from '../../public/images/projects/Kaidu-Dashboard-Display.png';
 import project6 from '../../public/images/projects/Management-Dashboard-Display.png';
 
 const FeaturedProject = ({ type, title, summary, img, link, github }) => {
