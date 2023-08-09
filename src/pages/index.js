@@ -35,7 +35,7 @@ export default function Home() {
               />
               <div className='flex flex-col justify-start '>
                 <p className='text-5xl font-bold mt-10 xl:!text-4xl lg:!text-center lg:!text-3xl md:!text-2xl sm:!text-xl sm:mt-2 md:mt-2 xl:mt-2'>
-                  👋🏻 I'm Jeyna Kim
+                  👋🏻 I&apos;m Jeyna Kim
                 </p>
                 <p className='mt-3'>
                   ___________ A Passionate Full-Stack Web Developer hailing from

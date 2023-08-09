@@ -52,10 +52,10 @@ const about = () => {
               {/* <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 '>
                 About Me
               </h2> */}
-              <p className='font-medium '>
-                👋🏻 I'm Jeyna Kim, a Versatile Full-Stack Web Developer offering
-                a unique blend of expertise in marketing, brand strategy, and
-                project management across diverse industries
+              <p className='font-medium'>
+                👋🏻 I&apos;m Jeyna Kim, a Versatile Full-Stack Web Developer
+                offering a unique blend of expertise in marketing, brand
+                strategy, and project management across diverse industries
               </p>
 
               <p className='my-4 font-medium'>
