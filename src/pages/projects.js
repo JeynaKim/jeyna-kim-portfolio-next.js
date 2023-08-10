@@ -22,7 +22,7 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
         target='_blank'
         className='w-1/2 cursor-pointer overflow-hidden rounded-lg lg:w-full'
       >
-        <Image src={img} alt={title} className='w-full h-[450px]' />
+        <img src={img} alt={title} className='w-full h-[450px]' />
       </Link>
 
       <div className='w-1/2 flex flex-col items-start justify-between pl-6 lg:w-full lg:pl-0 lg:pt-6'>
