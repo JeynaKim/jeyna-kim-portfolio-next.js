@@ -10,7 +10,7 @@ import project1 from '../../public/images/projects/Go-Fit-Display.png';
 import project2 from '../../public/images/projects/Jungle-Display.png';
 import project3 from '../../public/images/projects/BiteMeBurger-Display.png';
 import project4 from '../../public/images/projects/Scheduler-Display.gif';
-import project5 from '../../public/images/projects/ddff.png';
+import project5 from '../../public/images/projects/testing.gif';
 import project6 from '../../public/images/projects/Management-Dashboard-Display.gif';
 
 const FeaturedProject = ({ type, title, summary, img, link, github }) => {
