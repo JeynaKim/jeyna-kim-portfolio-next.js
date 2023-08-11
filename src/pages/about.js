@@ -65,16 +65,18 @@ const about = () => {
               </p>
 
               <p className='font-medium'>
-                👩🏻‍💻 As a proven self-starter, I thrive in independent projects
-                and demonstrate exceptional teamwork in collaborative
-                environments
+                👩🏻‍💻 As a self-starter with a deep marketing background, I excel
+                in both independent projects and team collaborations,
+                consistently delivering solutions that surpass client
+                expectations and cementing my role as a key asset to any
+                endeavor
               </p>
-
+              {/* 
               <p className='my-4 font-medium'>
                 ✏️ My unique mix of experience allows me to understand client
                 needs more deeply, resulting in solutions that not only meet but
                 exceed expectations, making me a valuable asset to any project
-              </p>
+              </p> */}
             </div>
             <div className='col-span-3 relative h-max rounded-2xl bg-light dark:bg-dark xl:col-span-4 md:order-1 md:col-span-8'>
               {/* <div className='absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark ' /> */}
